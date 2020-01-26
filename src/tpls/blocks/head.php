@@ -63,7 +63,7 @@ if (is_file(T3_TEMPLATE_URL . '/js/bootstrap-accessibility.min.js')) {
 <script type="text/javascript" src="<?php echo T3_TEMPLATE_URL;?>/js/bootstrap-accessibility.min.js"></script>
 
 <script>
-$(document).ready(function(){
+jQuery( document ).ready(function( $ ) {
     $('[data-toggle="tooltip"]').tooltip();   
 });
 </script>
