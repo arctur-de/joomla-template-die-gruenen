@@ -20,7 +20,7 @@
 // ---------------------------------------------------------
 
 .t3-wrapper {
-  background: @brand-primary;// @bg-image no-repeat fixed top left / cover;
+  background: @bg-image no-repeat fixed top left / cover;
 }
 
 // HEADER
@@ -57,10 +57,6 @@
   span, small {
     display: none;
   }
-
-  .logo-img-sm {
-    width: 100%;
-  }
 }
 
 // Logo Text
@@ -93,7 +89,7 @@
     color: inherit;
     display: inline-block;
     font-family: @mainnav-font-family;
-    font-size: 20px;
+    font-size: 48px;
     text-transform: uppercase;
     border-top: 3px solid;
     border-bottom: 3px solid;
@@ -103,13 +99,9 @@
     margin-top: 0px;
     margin-bottom: 0;
 
-    @media screen and (min-width: (0.5*@screen-sm)) {
-      font-size: 32px;
-    }
-
-    @media screen and (min-width: @screen-sm) {
+    @media (max-width: @screen-xs-max) {
       //width: 100%;
-      font-size: 48px;
+      font-size: 32px;
     }
   }
 
@@ -138,7 +130,7 @@
   .clearfix();
 
   form {
-    margin: 6px 0 6px; // 10px;
+    margin: 7px 0 0; // 10px;
 
     @media screen and (min-width: @screen-sm) {
       margin: 4px 0 0;
@@ -240,6 +232,9 @@
   padding-top: @line-height-computed ;
   padding-bottom: @line-height-computed;
   background: #fff;
+	p a {
+	text-decoration:underline;
+	}
 }
 
 // Sidebars

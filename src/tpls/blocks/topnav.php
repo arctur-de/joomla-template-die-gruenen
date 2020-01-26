@@ -22,7 +22,7 @@ defined('_JEXEC') or die;
 
 				<?php if ($this->countModules('head-search')) : ?>
 					<!-- HEAD SEARCH -->
-					<div class="col-xs-12 col-sm-4">
+					<div class="col-xs-4 col-sm-4">
 						<div class="head-search <?php $this->_c('head-search') ?>">
 							<jdoc:include type="modules" name="<?php $this->_p('head-search') ?>" style="raw" />
 						</div>
