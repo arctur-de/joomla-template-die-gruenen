@@ -8,14 +8,13 @@ $Itemid = JEVHelper::getItemid();
 $jinput = JFactory::getApplication()->input;
 
 ?>
-<!--override geraint cat-->
 <div class="jev_catselect" ><?php echo $data['catname']; $this->viewNavCatText( $this->catids, JEV_COM_COMPONENT, 'cat.listevents', $this->Itemid );?></div><?php
 
 if (JString::strlen($data['catdesc'])>0){
 	echo "<div class='jev_catdesc'>".$data['catdesc']."</div>";
 }
 ?>
-<table align="center" width="100%" cellspacing="0" cellpadding="5" class="ev_table">
+<table align="center" width="90%" cellspacing="0" cellpadding="5" class="ev_table">
 <?php
 $num_events = count($data['rows']);
 $chdate ="";
