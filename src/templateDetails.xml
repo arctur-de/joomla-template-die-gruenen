@@ -90,4 +90,8 @@
 		<fields name="params" addfieldpath="/plugins/system/t3/includes/depend">
 		</fields>
 	</config>
+
+	<updateservers>
+    	<server type="extension" priority="1" name="Offical GitHub Distribution">https://raw.githubusercontent.com/arctur-de/joomla-template-die-gruenen/master/update.xml</server>
+	</updateservers>
 </extension>
