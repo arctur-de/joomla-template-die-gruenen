@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="template" method="upgrade" group="template" client="site">
 	<name>GRUENE_T3_BS3</name>
-	<version>0.0.2</version>
-	<creationDate>January 2018</creationDate>
+	<version>0.0.3</version>
+	<creationDate>January 2020</creationDate>
 	<author>Arctur Internet Consulting GbR</author>
 	<authorEmail>development@arctur.de</authorEmail>
 	<authorUrl>http://www.arctur.de</authorUrl>
@@ -92,6 +92,6 @@
 	</config>
 
 	<updateservers>
-    	<server type="extension" priority="1" name="Offical GitHub Distribution">https://raw.githubusercontent.com/arctur-de/joomla-template-die-gruenen/master/update.xml</server>
+    	<server type="extension" priority="1" name="Gruene Template by Arctur">https://raw.githubusercontent.com/arctur-de/joomla-template-die-gruenen/master/update.xml</server>
 	</updateservers>
 </extension>

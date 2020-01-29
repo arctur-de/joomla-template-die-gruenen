@@ -24,22 +24,10 @@ defined('_JEXEC') or die;
 			<div class="row">
 				<div class="<?php echo $this->getParam('t3-rmvlogo', 1) ? 'col-md-8' : 'col-md-12' ?> copyright <?php $this->_c('footer') ?>">
 					<jdoc:include type="modules" name="<?php $this->_p('footer') ?>" />
-          <small>
-            <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a> is a front-end framework of Twitter, Inc. Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.
-          </small>
-          <small>
-            <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> font licensed under <a href="http://scripts.sil.org/OFL">SIL OFL 1.1</a>.
-          </small>
-          <small>
-            Mit freundlicher Unterstützung von <a href="http://arctur.de" target="_blank" title="Arctur!" data-toggle="tooltip" class="hasTooltip">Arctur Internet Consulting</a>.
-          </small>
+					<small>
+						Mit freundlicher Unterstützung von <a href="http://arctur.de" target="_blank" title="Arctur!" data-toggle="tooltip" class="hasTooltip">Arctur Internet Consulting</a>.
+					</small>
 				</div>
-				<?php if ($this->getParam('t3-rmvlogo', 1)): ?>
-					<div class="col-md-4 poweredby text-hide">
-						<a class="t3-logo t3-logo-color" href="http://t3-framework.org" title="<?php echo JText::_('T3_POWER_BY_TEXT') ?>"
-						   target="_blank" <?php echo method_exists('T3', 'isHome') && T3::isHome() ? '' : 'rel="nofollow"' ?>><?php echo JText::_('T3_POWER_BY_HTML') ?></a>
-					</div>
-				<?php endif; ?>
 			</div>
 		</div>
 	</section>
