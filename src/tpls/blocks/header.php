@@ -18,14 +18,6 @@ if (!$sitename) {
 	$sitename = JFactory::getConfig()->get('sitename');
 }
 
-$logosize = 'col-sm-12';
-if ($headright = $this->countModules('head-search or languageswitcherload or page-title')) {
-	$logosize = 'col-sm-8';
-}
-
-$logosize = 'col-sm-3';
-$headright = true;
-
 ?>
 
 <!-- HEADER -->
@@ -33,7 +25,7 @@ $headright = true;
 	<div class="row">
 
 		<!-- LOGO -->
-		<div class="col-xs-4 <?php echo $logosize ?> logo">
+		<div class="col-xs-12 col-sm-10 <?php echo $logosize ?> logo">
 			<div class="logo-<?php echo $logotype, ($logoimgsm ? ' logo-control' : '') ?>">
 				<a href="<?php echo JURI::base(true) ?>" title="<?php echo strip_tags($sitename) ?>">
 					<?php if($logotype == 'image'): ?>
