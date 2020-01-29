@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<updates>
+    <update>
+        <name>
+            <![CDATA[ Grüne Template by Arctur ]]>
+        </name>
+        <description/>
+        <element>GRUENE_T3_BS3</element>
+        <type>template</type>
+        <client>0</client>
+        <version>0.0.1</version>
+        <infourl title="Arctur">http://www.arctur.de/update</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://raw.githubusercontent.com/arctur-de/joomla-template-die-gruenen/master/dist/template-0.0.1.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <maintainer>Arctur</maintainer>
+        <maintainerurl>http://www.arctur.de/</maintainerurl>
+        <targetplatform name="joomla" version=".*"/>
+    </update>
+</updates>

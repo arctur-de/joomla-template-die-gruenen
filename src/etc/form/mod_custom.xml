@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<form>
+	<fields name="params">
+		<fieldset name="options">
+			<field
+				name="module_link"
+				type="text"
+				
+				label="Modul Link"
+				description="Define a link for the whole module to refer to">
+			</field>
+		</fieldset>
+	</fields>
+</form>
