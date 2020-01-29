@@ -25,7 +25,7 @@ if (!$sitename) {
 	<div class="row">
 
 		<!-- LOGO -->
-		<div class="col-xs-12 col-sm-10 <?php echo $logosize ?> logo">
+		<div class="col-xs-12 col-sm-3 logo">
 			<div class="logo-<?php echo $logotype, ($logoimgsm ? ' logo-control' : '') ?>">
 				<a href="<?php echo JURI::base(true) ?>" title="<?php echo strip_tags($sitename) ?>">
 					<?php if($logotype == 'image'): ?>
@@ -41,30 +41,28 @@ if (!$sitename) {
 		</div>
 		<!-- //LOGO -->
 
-		<?php if ($headright): ?>
-			<div class="col-xs-8 col-sm-9">
-				<div class="logo-text">
-					<h1 class="site-title"><?php echo $sitename;?></h1>
-					<h4 class="site-slogan"><?php echo $slogan; ?></h4>
-				</div>
-				<?php if ($this->countModules('page-title')) : ?>
-
-					<!-- HEAD SEARCH -->
-					<!-- <div class="page-title <?php $this->_c('page-title') ?>">
-						<jdoc:include type="modules" name="<?php $this->_p('page-title') ?>" style="raw" />
-					</div> -->
-					<!-- //HEAD SEARCH -->
-				<?php endif ?>
-
-				<?php if ($this->countModules('languageswitcherload')) : ?>
-					<!-- LANGUAGE SWITCHER -->
-					<div class="languageswitcherload">
-						<jdoc:include type="modules" name="<?php $this->_p('languageswitcherload') ?>" style="raw" />
-					</div>
-					<!-- //LANGUAGE SWITCHER -->
-				<?php endif ?>
+		<div class="col-xs-12 col-sm-9">
+			<div class="logo-text">
+				<h1 class="site-title"><?php echo $sitename;?></h1>
+				<h4 class="site-slogan"><?php echo $slogan; ?></h4>
 			</div>
-		<?php endif ?>
+			<?php if ($this->countModules('page-title')) : ?>
+
+				<!-- HEAD SEARCH -->
+				<!-- <div class="page-title <?php $this->_c('page-title') ?>">
+					<jdoc:include type="modules" name="<?php $this->_p('page-title') ?>" style="raw" />
+				</div> -->
+				<!-- //HEAD SEARCH -->
+			<?php endif ?>
+
+			<?php if ($this->countModules('languageswitcherload')) : ?>
+				<!-- LANGUAGE SWITCHER -->
+				<div class="languageswitcherload">
+					<jdoc:include type="modules" name="<?php $this->_p('languageswitcherload') ?>" style="raw" />
+				</div>
+				<!-- //LANGUAGE SWITCHER -->
+			<?php endif ?>
+		</div>
 
 	</div>
 </header>
