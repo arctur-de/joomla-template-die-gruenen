@@ -8,10 +8,10 @@
         <element>GRUENE_T3_BS3</element>
         <type>template</type>
         <client>0</client>
-        <version>0.0.2</version>
+        <version>0.0.3</version>
         <infourl title="Arctur">http://www.arctur.de/update</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://raw.githubusercontent.com/arctur-de/joomla-template-die-gruenen/master/dist/template-0.0.2.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://raw.githubusercontent.com/arctur-de/joomla-template-die-gruenen/master/dist/template-0.0.3.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
