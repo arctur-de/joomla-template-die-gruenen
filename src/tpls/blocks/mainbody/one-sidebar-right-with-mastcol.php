@@ -15,7 +15,7 @@ defined('_JEXEC') or die;
 	<div class="row">
 
 		<!-- MAIN CONTENT -->
-		<div id="t3-content" class="t3-content shadow col-xs-12 col-sm-8  col-md-9">
+		<div id="t3-content" class="t3-content shadow col-xs-12 col-sm-8 col-md-9">
 			<?php if($this->hasMessage()) : ?>
 			<jdoc:include type="message" />
 			<?php endif ?>
@@ -23,7 +23,7 @@ defined('_JEXEC') or die;
 		</div>
 		<!-- //MAIN CONTENT -->
 
-		<div class="t3-sidebar t3-sidebar-right col-xs-12 col-sm-4  col-md-3">
+		<div class="t3-sidebar col-xs-12 col-sm-4 col-md-3">
 			<div class="row">
 
 				<!-- MASSCOL 1 -->
@@ -36,7 +36,7 @@ defined('_JEXEC') or die;
 
 				<!-- SIDEBAR RIGHT -->
 				<?php if ($vars['sidebar']) : ?>
-				<div class="t3-sidebar col-xs-12 col-sm-4  col-md-3 <?php $this->_c($vars['sidebar']) ?>">
+				<div class="t3-sidebar t3-sidebar-1 col-xs-12 <?php $this->_c($vars['sidebar']) ?>">
 					<jdoc:include type="modules" name="<?php $this->_p($vars['sidebar']) ?>" style="T3Xhtml" />
 				</div>
 				<?php endif ?>
@@ -46,4 +46,4 @@ defined('_JEXEC') or die;
 		</div>
 
 	</div>
-</div> 
+</div>
