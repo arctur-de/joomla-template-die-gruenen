@@ -1,16 +1,11 @@
 <?php
 /** 
  *------------------------------------------------------------------------------
- * @package	  T3 Framework for Joomla!
- *------------------------------------------------------------------------------
- * @copyright Copyright (C) 2004-2013 JoomlArt.com. All Rights Reserved.
- * @license	  GNU General Public License; http://www.gnu.org/licenses/gpl.html
- * @author		JoomlArt, JoomlaBamboo 
- * 			      If you want to be come co-authors of this project, please follow 
- * 			      our guidelines at http://t3-framework.org/contribute
+ * @copyright     Copyright (C) 2016-2020 arctur.de. All Rights Reserved.
+ * @authors       Arctur Internet Consulting GbR
+ * @Link:         http://www.arctur.de 
  *------------------------------------------------------------------------------
  */
-
 
 defined('_JEXEC') or die;
 ?>
