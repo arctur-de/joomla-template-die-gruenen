@@ -31,7 +31,11 @@
 // ----
 .logo {
 
-  text-align: left; //center;
+  text-align: left;
+
+  @media screen and (max-width: @screen-xs-max) {
+    text-align: center;
+  }
 
   // Left align the logo on  Tablets / Desktop
   //@media screen and (min-width: @screen-sm) {
@@ -65,6 +69,8 @@
 
   @media screen and (max-width: @screen-xs-max) {
     margin-top: 5px;
+    width: 100%;
+    text-align: center;
   }
 
   a {
