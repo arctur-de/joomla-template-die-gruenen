@@ -8,10 +8,10 @@
 defined('_JEXEC') or die;
 ?>
 
-<?php if ($this->checkSpotlight('spotlight-2', 'position-5, position-6, position-7, position-8')) : ?>
+<?php if ($this->checkSpotlight('spotlight-2', 'position-5, position-6, position-7, position-8, position-9, position-10, position-11, position-12')) : ?>
 	<!-- SPOTLIGHT 2 -->
 	<div class="container t3-sl t3-sl-2">
-		<?php $this->spotlight('spotlight-2', 'position-5, position-6, position-7, position-8') ?>
+		<?php $this->spotlight('spotlight-2', 'position-5, position-6, position-7, position-8, position-9, position-10, position-11, position-12') ?>
 	</div>
 	<!-- //SPOTLIGHT 2 -->
 <?php endif ?>

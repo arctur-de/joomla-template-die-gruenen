@@ -120,7 +120,7 @@
       border-bottom: 0.2em solid;
       padding-top: 0.4em;
       padding-bottom: 0.4em;
-      color: #fff;
+      color: @t3-module-color;
       //max-width: 100%;
       width: 100%;
       line-height: 1.4em;
@@ -130,8 +130,8 @@
   }
 
   .module-ct {
-    background: @GRUENES-gruen;
-    color: #fff; // @t3-module-content-color;
+    background-color: @t3-module-content-bg;
+    color: @t3-module-color;
     padding: @t3-module-content-padding;
     .clearfix();
   }
@@ -216,7 +216,7 @@
     }
 
     a {
-      color: @GRUENES-gelb;
+      color: @link-color;
     }
 
     div.module-text {
@@ -282,7 +282,29 @@
 // ---------------
 .t3-sidebar {
   .module-inner {
-    background-color: @GRUENES-gruen;
+    background-color: @white;
+  }
+}
+
+// Spotlight Modules
+// ---------------
+.t3-spotlight {
+
+  .t3-module {
+  
+    .shadow;
+
+    .btn-primary {
+    color: #fff; //@btn-primary-color;
+    background-color: @GRUENES-magenta; //@btn-primary-bg;
+    border-color: @gray-light;
+    width: 100%;
+
+      &:hover {
+        background-color: @GRUENES-gelb; //#fff; //@btn-primary-hover-bg;
+        color: @GRUENES-dunkelgruen;
+      }
+    }
   }
 }
 
@@ -552,4 +574,58 @@ ul.latestusers {
 
 div.acymailing_module {
   padding: 0 @t3-global-padding;
+}
+
+table.acymailing_form {
+  margin: 0 @t3-global-margin (@t3-global-margin / 2) !important;
+}
+
+// JEvents Calendar Module (by Arctur)
+// -----------------------------------
+
+.t3-module {
+  .module-ct {
+    .mod_events_latest_table {
+      color: initial;
+
+      td.mod_events_latest_first,
+      td.mod_events_latest {
+        background-color: transparent;
+        padding: 5px 0 2px 2px;
+      }
+
+      .mod_events_latest_date {
+        vertical-align: unset;
+      }
+    }
+    .mod_events_latest_callink {
+
+      padding: 2px 8px 4px;
+
+      ::before {
+        content: "\f061";
+        font-family: 'FontAwesome';
+        padding-right: 4px;
+      }
+
+      > a {
+        color: inherit;
+        text-decoration: none;
+      } 
+    }
+  }
+}
+
+.t3-module {
+  .checkbox {
+    display: inherit;
+  }
+  .pweb-static {
+    .pwebbox-container {
+      padding: 0;
+      [data-recaptcha-widget-id="1"] {
+        display: none;
+      }
+    }
+  }
 }
