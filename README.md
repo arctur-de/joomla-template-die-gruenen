@@ -1,4 +1,5 @@
-# Joomla Template im Corporate Design der Grünen by Arctur GbR
+# Joomla Template im Corporate Design der Grünen
+by Arctur GbR
 
 ![Template Preview](https://github.com/arctur-de/joomla-template-die-gruenen/blob/master/template_preview.png)
 
@@ -10,7 +11,7 @@
 
 ## Installation
 1. Das neuste Release des Templates von [Releases](https://github.com/arctur-de/joomla-template-die-gruenen/releases/latest) herunterladen. (zip)
-2. Template installieren im [Administrationsbereich](https://docs.joomla.org/J3.x:Installing_a_template/de)
+2. Template installieren im [Administrationsbereich](https://docs.joomla.org/J3.x:Installing_a_template/de).
 3. Sicherstellen das T3 Installiert ist. Falls nicht, [T3 installieren](http://www.t3-framework.org/documentation/installation).
 
 ## Update
