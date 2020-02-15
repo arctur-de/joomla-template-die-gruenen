@@ -24,4 +24,4 @@ Das Template verfügt über die Möglichkeit über die [Joomla Administration](h
 Genau wie bei einer Neu-Installation kann das Template mit Schritten 1 und 2 der [Installation](#installation) aktuallisiert werden.
 
 ## Probleme
-Bei Problemen können Tickets (Issues) in Github erstellt werden oder kontaktieren Sie uns gerne unter developer@arctur.de 
+Bei Problemen können Tickets (Issues) in Github erstellt werden oder kontaktieren Sie uns gerne unter [arctur.de](http://arctur.de).
