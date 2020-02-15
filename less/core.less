@@ -1,0 +1,218 @@
+/** 
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2016-2020 arctur.de. All Rights Reserved.
+ * @authors       Arctur Internet Consulting GbR
+ * @Link:         http://www.arctur.de 
+ *------------------------------------------------------------------------------
+ */
+
+
+// --------------------------------------------------
+// CORE ELEMENTS
+// --------------------------------------------------
+
+//
+// SCAFFOLDING (scaffolding.less)
+// --------------------------------------------------
+
+html {
+}
+
+body {
+}
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+// Links
+// --------------------------------------------------
+a {
+  color: @link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: @link-hover-color;
+    text-decoration: underline;
+  }
+
+  &:focus {
+    .tab-focus();
+  }
+}
+
+
+// Images
+// --------------------------------------------------
+img {
+  vertical-align: middle;
+}
+
+// Responsive images (ensure images don't scale beyond their parents)
+.img-responsive {
+}
+
+// Rounded corners
+.img-rounded {
+}
+
+// Image thumbnails
+.img-thumbnail {
+}
+
+// Perfect circle
+.img-circle {
+}
+
+
+
+//
+// TABLES (tables.less)
+// -------------------------------------------------------
+table {
+}
+
+// All Cells
+// ---------
+th,
+td {
+  line-height: @line-height-base;
+  text-align: left;
+  vertical-align: top;
+} 
+
+// Heading
+// -------
+th {
+  font-weight: bold;
+  // Links in Table Heading
+  a {
+    // Link states
+    &:hover, &:focus, &:active {
+    }
+  }
+}
+
+// Base Cells
+// ----------
+td,
+tr td {
+  border-top: 1px solid @table-border-color;
+}
+
+
+
+// Specific Joomla! Table Styles
+// -----------------------------
+.cat-list-row0,
+.cat-list-row1,
+tr.cat-list-row0 td,
+tr.cat-list-row1 td {
+}
+
+.cat-list-row0:hover,
+.cat-list-row1:hover {
+  background: @table-bg-hover;
+}
+
+.cat-list-row1,
+tr.cat-list-row1 td {
+  background: @table-bg-accent;
+}
+
+table.contentpane,
+table.tablelist,
+table.category,
+table.admintable,
+table.blog {
+  width: 100%;
+}
+
+table.contentpaneopen {
+  border: 0;
+}
+
+
+
+// 
+// MISC
+// --------------------------------------------------
+.star {
+  color: @yellow;
+}
+
+.red {
+  color: @red;
+}
+
+.yellow {
+  color: @GRUENES-gelb;
+}
+
+// Horizontal rules
+hr {
+  margin-top:    @line-height-computed;
+  margin-bottom: @line-height-computed;
+  border: 0;
+  border-top: 1px solid @hr-border;
+}
+
+// Wrap Element
+.wrap {
+  clear: both;
+  width: auto;
+}
+
+// Wraps container element for background control
+.contentwrap {
+  clear: both;
+  width:auto;
+  @media screen and (min-width: @screen-sm) {
+    width: @container-sm;
+    margin: auto;
+  }
+  @media screen and (min-width: @screen-md) {
+    width: @container-md;
+    margin: auto;
+  }
+  @media screen and (min-width: @screen-lg-min) {
+    width: @container-lg;
+    margin: auto;
+  }
+}
+
+// Shadow
+.shadow {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+// Center
+.center,
+.table td.center,
+.table th.center {
+  text-align: center;
+}
+
+.box-align-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Hidden elements
+.element-invisible {
+ position: absolute;
+ padding: 0;
+ margin: 0;
+ border: 0;
+ height: 1px;
+ width: 1px;
+ overflow: hidden;
+}
