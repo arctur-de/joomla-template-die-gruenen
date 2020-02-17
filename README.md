@@ -4,10 +4,10 @@ by Stephan Link & Dr. Peter Frahm GbR - Arctur Internet Consulting
 ![Template Preview](https://github.com/arctur-de/joomla-template-die-gruenen/blob/master/template_preview.png)
 
 ## Features
-* Grün
-* Responsive
-* Modern
-* Anpassbar
+* GRÜN
+* responsiv
+* modern
+* anpassbar
 
 ## Installation
 1. Das neuste Release des Templates von [Releases](https://github.com/arctur-de/joomla-template-die-gruenen/releases/latest) herunterladen. (zip)
