@@ -914,6 +914,43 @@ div.finder {
   font-weight: bold;
 }
 
+.contact-category {
+  .row:nth-child(1) {
+    margin-top: -@t3-global-margin;
+  }
+  .row {
+    .cat-list-item {
+      margin-top: @t3-global-margin * 2;
+      text-align: center;
+      div.item-thumbnail {
+        display: inline-block;
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: @t3-global-margin;
+        a {
+          border-radius: 50%;
+          display: block;
+          overflow: hidden;
+          width: 100%;
+          padding-top: 100%;
+          border: 5px solid @GRUENES-magenta;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          transition: 0.3s all;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      h3.item-name {
+        margin-top: 0px;
+        line-height: 1;
+      }
+    }
+  }
+}
 
 
 //
