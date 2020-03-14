@@ -16,13 +16,59 @@
 // --------------------------------------------------
 
 .t3-module {
-  background: @t3-module-bg;
-  color: @t3-module-color;
-  margin-bottom: @line-height-computed;
-
   // Module padding
   .module-inner {
     padding: @t3-module-padding;
+  }
+  margin-bottom: @line-height-computed;
+
+  // Colors
+  background: @t3-module-bg;
+  color: @t3-module-color;
+  a {
+    color: @link-color;
+    :hover {
+      color: @link-hover-color;
+    }
+  }
+
+  &.green-bg {
+    .module-inner {
+      background: @GRUENES-gruen;
+    }
+    color: white;
+    a {
+      color: @GRUENES-gelb;
+      :hover {
+        color: white;
+      }
+    }
+  }
+
+  &.pink-bg {
+    .module-inner {
+      background: @GRUENES-magenta;
+    }
+    color: white !important;
+    a {
+      color: @GRUENES-gelb;
+      :hover {
+        color: white;
+      }
+    }
+  }
+
+  &.yellow-bg {
+    .module-inner {
+      background: @GRUENES-gelb;
+    }
+    color: @GRUENES-dunkelgruen;
+    a {
+      color: @GRUENES-gruen;
+      :hover {
+        color: @GRUENES-gruen;
+      }
+    }
   }
 }
 
