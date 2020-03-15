@@ -16,18 +16,59 @@
 // --------------------------------------------------
 
 .t3-module {
-  background: @t3-module-bg;
-  color: @t3-module-color;
-  margin-bottom: @line-height-computed;
-
-  // Larger margin on Tablet / Desktop
-  @media screen and (min-width: @screen-sm) {
-    margin-bottom: @line-height-computed * 2;
-  }
-
   // Module padding
   .module-inner {
     padding: @t3-module-padding;
+  }
+  margin-bottom: @line-height-computed;
+
+  // Colors
+  background: @t3-module-bg;
+  color: @t3-module-color;
+  a {
+    color: @link-color;
+    :hover {
+      color: @link-hover-color;
+    }
+  }
+
+  &.green-bg {
+    .module-inner {
+      background: @GRUENES-gruen;
+    }
+    color: white;
+    a {
+      color: @GRUENES-gelb;
+      :hover {
+        color: white;
+      }
+    }
+  }
+
+  &.pink-bg {
+    .module-inner {
+      background: @GRUENES-magenta;
+    }
+    color: white !important;
+    a {
+      color: @GRUENES-gelb;
+      :hover {
+        color: white;
+      }
+    }
+  }
+
+  &.yellow-bg {
+    .module-inner {
+      background: @GRUENES-gelb;
+    }
+    color: @GRUENES-dunkelgruen;
+    a {
+      color: @GRUENES-gruen;
+      :hover {
+        color: @GRUENES-gruen;
+      }
+    }
   }
 }
 
@@ -181,62 +222,14 @@
 
 .module-ct {
   .custom {
-
     font-family: @headings-font-family;
 
-    // p:last-child {
-    //     margin-bottom: 0px;
-    // }
-
-    h1, h2, h3, h4 {
-      display: inline-block;
-      font-family: @mainnav-font-family;
-      text-transform: uppercase;
-      border-top: 0.2em solid;
-      border-bottom: 0.2em solid;
-      padding-top: 0.4em;
-      padding-bottom: 0.4em;
-      color: #fff;
-      //max-width: 100%;
-      width: 100%;
-      line-height: 1.4em;
-      margin-top: 0px;
-      margin-bottom: 0.6em;
-    }
-
-    a {
-      color: @GRUENES-gelb;
+    p:last-child {
+        margin-bottom: 0px;
     }
 
     div.module-text {
-      padding: 0 @t3-global-padding;
-
-      &.noimage {
-        padding-top: @t3-global-padding;
-      }
-    }
-
-    &.sidebar-image {
-      img {
-        display: block;
-        //max-width: 100%;
-        width: 100%;
-        height: auto;
-        vertical-align: middle;
-        //.shadow();
-      }
-    }
-
-    &.sidebar-shoutout {
-      .shadow;
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      overflow: hidden;
-
-      padding: @t3-global-padding;
-
-      color: #fff;
+      padding: 0 @t3-global-padding @t3-global-padding;
     }
   }
 }
@@ -370,9 +363,14 @@
 }
 
 .banneritem {
+  .shadow;
   a {
     font-weight: bold;
   }
+  img {
+    width: 100%;
+  }
+  margin-bottom: @t3-global-margin;
 }
 
 .bannerfooter {

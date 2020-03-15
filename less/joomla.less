@@ -147,6 +147,15 @@
 // Article Images
 // -------------------------
 
+.article-image-top {
+  margin: 0 -15px;
+  max-height: 500px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
 .article-intro,
 .article-content {
 
@@ -303,9 +312,9 @@ article aside .btn-group {
 
 }
 
-// Article Tags
+// Tags
 // -------------------------
-article .tags {
+.tags {
   span {
     .label-info {
       background-color: @GRUENES-magenta;
@@ -879,6 +888,9 @@ div.finder {
       }
     }
   }
+  .tab-pane {
+    padding: @t3-global-padding 0;
+  }
 }
 
 .contact-form {
@@ -914,6 +926,44 @@ div.finder {
   font-weight: bold;
 }
 
+.contact-category {
+  margin-bottom: @t3-global-margin;
+  .row:nth-child(1) {
+    margin-top: -@t3-global-margin;
+  }
+  .row {
+    .cat-list-item {
+      margin-top: @t3-global-margin * 2;
+      text-align: center;
+      div.item-thumbnail {
+        display: inline-block;
+        width: 70%;
+        max-width: 300px;
+        margin-bottom: @t3-global-margin;
+        a {
+          border-radius: 50%;
+          display: block;
+          overflow: hidden;
+          width: 100%;
+          padding-top: 100%;
+          border: 5px solid @GRUENES-magenta;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          transition: 0.3s all;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      h3.item-name {
+        margin-top: 0px;
+        line-height: 1;
+      }
+    }
+  }
+}
 
 
 //

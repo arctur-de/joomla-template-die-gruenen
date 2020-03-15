@@ -300,7 +300,7 @@
 .navbar-top {
   background-color: @navbar-default-bg;
 
-  .navbar-nav {
+  .nav {
 
     margin: 0;
 
@@ -333,6 +333,25 @@
 
         .caret {
           border-top-color: @navbar-default-link-active-color;
+        }
+      }
+    }
+  }
+}
+
+// Icon Menu (i.e. Social Icons
+// -------------------------------------------------------
+.nav.nav-icon {
+  > li {
+    > a {
+      font-size: 14px;
+      color: @GRUENES-magenta;
+      margin: 0px;
+      padding: 0px;
+      :hover {
+        color: #fff;
+        .fa-inverse {
+          color: @GRUENES-magenta;
         }
       }
     }

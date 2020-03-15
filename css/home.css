@@ -4,7 +4,7 @@
 .home h2 {
   font-size: 21px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
   .home h2 {
     font-size: 30px;
   }
@@ -16,9 +16,9 @@
 }
 .home .t3-sl-1 {
   padding: 0;
-  background: #ffffff;
-  color: #333333;
-  border-bottom: 1px solid #eeeeee;
+  background: #0a321e;
+  color: #0a321e;
+  border-bottom: 1px solid #555555;
 }
 .home .t3-sl-1 .jumbotron {
   border-radius: 0;
@@ -32,7 +32,7 @@
 .home .t3-sl-2 .img-responsive {
   display: inline-block;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
   .home .t3-sl-2 p {
     font-size: 16px;
     line-height: 22px;
@@ -41,17 +41,17 @@
 .home .t3-sl-3 p > img {
   margin-top: 20px;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1025px) {
   .home .t3-sl-3 p > img {
     margin-top: 0;
   }
 }
 .home .t3-sl-3,
 .home .t3-sl-4 {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #555555;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
   .home .t3-sl-3 p,
   .home .t3-sl-4 p {
     font-size: 16px;
@@ -73,16 +73,16 @@
   line-height: 1.25;
   color: #999999;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
   .home .t3-sl-3 .jumbotron p,
   .home .t3-sl-4 .jumbotron p {
     font-size: 21px;
   }
 }
 .home .t3-sl-5 {
-  background: #ffffff;
-  color: #333333;
-  border-top: 1px solid #eeeeee;
+  background: #0a321e;
+  color: #0a321e;
+  border-top: 1px solid #555555;
   padding: 0;
 }
 .home .t3-sl-5 .jumbotron {
