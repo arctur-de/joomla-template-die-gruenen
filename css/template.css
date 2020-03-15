@@ -948,6 +948,13 @@ input.invalid {
     display: inline-block;
   }
 }
+.nav-tabs > li > a:hover {
+  color: #46962b;
+  text-decoration: underline;
+}
+.nav-tabs > li.active > a {
+  color: #0a321e;
+}
 .nav .caret {
   border-top-color: #46962b;
   border-bottom-color: #46962b;
@@ -1878,17 +1885,17 @@ article aside .btn-group > .dropdown-toggle:focus {
 article aside .btn-group > .dropdown-toggle .caret {
   margin-left: 2px;
 }
-article .tags {
+.tags {
   margin-bottom: 5px;
 }
-article .tags span {
+.tags span {
   margin-right: 5px;
 }
-article .tags span .label-info {
+.tags span .label-info {
   background-color: #e6007e;
   color: #fff;
 }
-article .tags span .label-info:hover {
+.tags span .label-info:hover {
   background-color: #b30062;
 }
 .row-even,
@@ -2225,6 +2232,9 @@ div.finder {
   .contact .dl-horizontal > dd {
     margin-left: 0;
   }
+}
+.contact .tab-pane {
+  padding: 20px 0;
 }
 .contact-form #jform_contact_emailmsg {
   width: 100%;
